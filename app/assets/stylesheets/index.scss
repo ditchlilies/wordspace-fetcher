@@ -3,3 +3,9 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.jumbotron { 
+  background: url("https://images.unsplash.com/photo-1470137430626-983a37b8ea46") no-repeat center center fixed;
+  height:600px;
+  background-size: cover;
+}
