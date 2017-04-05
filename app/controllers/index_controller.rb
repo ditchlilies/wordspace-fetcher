@@ -4,9 +4,5 @@ class IndexController < ApplicationController
 
     end
 
-    def blogtitles
-         Article.ajaxCall() 
-    end
-    
     
 end

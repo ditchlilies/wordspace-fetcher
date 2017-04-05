@@ -1,0 +1,110 @@
+/* line 1, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.jumbotron {
+  background: url("https://images.unsplash.com/photo-1470137430626-983a37b8ea46") no-repeat center center fixed;
+  height: 600px;
+  background-size: cover;
+}
+
+/* line 7, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.transbox {
+  background-color: rgba(244, 206, 66, 0.5);
+  text-align: center;
+}
+
+/* line 15, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 300px;
+}
+
+/* line 24, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.diplomatasc {
+  font-family: 'Diplomata SC', cursive;
+}
+
+/* line 28, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.diplomata {
+  font-family: 'Diplomata', cursive;
+}
+
+/* line 32, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* line 36, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.bg-grey {
+  background-color: #f6f6f6;
+}
+
+/* line 40, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.grey {
+  color: #323232;
+}
+
+/* line 44, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.black {
+  color: #000000;
+}
+
+/* line 48, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.container-fluid {
+  padding: 60px 50px;
+}
+
+/* line 52, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.logo {
+  font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 56, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+/* line 62, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.logo-small {
+  color: #f4511e;
+  font-size: 50px;
+}
+
+/* line 67, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.logo {
+  color: #f4511e;
+  font-size: 200px;
+}
+
+/* line 72, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+
+/* line 78, /home/ubuntu/workspace/app/assets/stylesheets/index.scss */
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
