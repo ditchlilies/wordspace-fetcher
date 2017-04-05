@@ -1,0 +1,82 @@
+.jumbotron { 
+  background: url("https://images.unsplash.com/photo-1470137430626-983a37b8ea46") no-repeat center center fixed;
+  height:600px;
+  background-size: cover;
+}
+
+.transbox {
+
+  background-color: rgba(244, 206, 66, .50);
+  text-align:center;
+
+}
+
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width:300px;
+}
+
+
+.diplomatasc{
+    font-family: 'Diplomata SC', cursive;
+}
+
+.diplomata{
+    font-family: 'Diplomata', cursive;
+    
+}
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.grey{
+    color: rgb(50, 50, 50);
+}
+
+.black{
+    color: #000000;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.logo {
+    font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+.thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+}
