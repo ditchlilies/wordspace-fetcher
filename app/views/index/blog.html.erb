@@ -1,0 +1,20 @@
+
+<div id="blog" class="container-fluid">
+
+<h2>Recent Blog Posts</h2>
+<%= Article.ajaxCall().each do |blog|%>
+<div class="col-md-3">
+<div id="blog-titles">
+
+<% if (i%4) == 0 && i != 0 %>
+<%end%>
+<%end%>
+
+</div>
+</div>
+        
+
+        
+        
+    </body>
+    <script> Article.ajaxCall() </script>

@@ -3,8 +3,10 @@ class IndexController < ApplicationController
     def index
 
     end
-    
-    def bloghash
+
+    def blogtitles
+         Article.ajaxCall() 
     end
+    
     
 end
