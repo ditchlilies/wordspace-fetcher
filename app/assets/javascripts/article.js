@@ -7,7 +7,7 @@ function Article(object) {
 }
 
 Article.prototype.toHtml = function() {
-  title = '<li><h3>' + this.title + '</h3>'
+  title = '<li><h2>' + this.title + '</h2>'
   text = this.content + '<em></em></li><p><br><p>';
   if (this.image) {
     return title + '<img src=' + this.image + '>' + text;
@@ -30,7 +30,7 @@ Article.render = function(){
 
 Article.ajaxCall = function(){
   $.ajax({
-    url: 'https://wordspace-elliotpatt.c9users.io/wp-json/wp/v2/posts?per_page=20',
+    url: 'https://wordspace-elliotpatt.c9users.io/wp-json/wp/v2/posts?per_page=100',
   }).done(function( data ) {
     Article.rawData = data;
     Article.loadAll();
