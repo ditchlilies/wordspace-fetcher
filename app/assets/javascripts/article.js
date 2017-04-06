@@ -1,15 +1,14 @@
 function Article(object) {
   this.title = object.title.rendered;
-  this.link = object.guid.rendered;
-  this.excerpt = object.excerpt.rendered;
+  this.content = object.content.rendered;
   if (object.content.rendered.match("img .+ src=[\"'](.+?)[\"'].*?") != null) {
     this.image = object.content.rendered.match("img .+ src=[\"'](.+?)[\"'].*?")[1];
   }
 }
 
 Article.prototype.toHtml = function() {
-  title = '<li><h3><a href=' + this.link + ' target="_blank">' + this.title + '</a></h3>'
-  text = this.excerpt + '<em><a href=' + this.link + ' target="_blank">READ MORE</a></em></li><p><br><p>';
+  title = '<li><h3>' + this.title + '</h3>'
+  text = this.content + '<em></em></li><p><br><p>';
   if (this.image) {
     return title + '<img src=' + this.image + '>' + text;
   } else {
