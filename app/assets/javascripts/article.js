@@ -25,7 +25,7 @@ Article.loadAll = function(){
 
 Article.render = function(){
   Article.all.forEach(function(art){
-    $('#blogtitles').append(art.toHtml())
+    $('#blog-titles').append(art.toHtml())
   })
 }
 
@@ -38,4 +38,3 @@ Article.ajaxCall = function(){
     Article.render();
   });
 }
-
